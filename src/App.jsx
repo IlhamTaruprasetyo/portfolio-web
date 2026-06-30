@@ -11,12 +11,12 @@ import Footer from "./components/Footer";
 import { useTheme } from "./hooks/useTheme";
 
 export default function App() {
-  const [loaded, setLoaded] = useState(true); // Diubah ke true untuk sementara waktu agar tidak perlu menunggu loading screen saat mendesain
+  const [loaded, setLoaded] = useState(false);
   const { isDark, toggleTheme } = useTheme();
 
   return (
     <>
-      {/* <Loader onComplete={() => setLoaded(true)} /> */}
+      <Loader onComplete={() => setLoaded(true)} />
       {loaded && (
         <>
           <Navbar isDark={isDark} toggleTheme={toggleTheme} />
