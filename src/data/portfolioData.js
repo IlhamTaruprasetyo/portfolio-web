@@ -15,7 +15,7 @@ export const personalInfo = {
   github: "github.com/IlhamTaruprasetyo",
   location: "Semarang, Jawa Tengah, Indonesia",
   available: true,             // ubah ke false jika tidak available
-  cvPath: "/assets/cv/CV_Ilham Taruprasetyo.pdf",           // taruh file CV di public/cv.pdf
+  cvPath: "/assets/cv/cv_baru.pdf",           // taruh file CV di public/cv.pdf
   photoPath: "/assets/hero/almetfoto.jpeg",
 };
 
